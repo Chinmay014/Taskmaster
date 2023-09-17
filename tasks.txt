@@ -1,2 +1,6 @@
-kill
-chop
+mouse
+lastitem
+hurra
+yays
+cat
+catfidh
