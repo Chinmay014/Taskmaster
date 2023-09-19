@@ -1,6 +1,12 @@
 import PySimpleGUI 
 import functions
 import time
+import os
+
+# create the task file if it does not exist
+if not os.path.exists("tasks.txt"):
+    with open("tasks.txt",'w') as file:
+        pass
 
 # create a (filled) text box and input box
 PySimpleGUI.theme("Black")
@@ -16,7 +22,7 @@ complete_button = PySimpleGUI.Button("Complete")
 
 exit_button = PySimpleGUI.Button("Exit")
 # creates a window
-wdw = PySimpleGUI.Window('My To-do App',
+wdw = PySimpleGUI.Window('Taskmaster',
                          layout=[[time_label],
                                  [label],
                                  [input_box,add_button],
