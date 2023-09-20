@@ -3,7 +3,7 @@ It is an application which lets you create your own to-do lists. Further customi
 
 ![App window on startup](image-1.png)
 
-To add a task, type the task in the entry box and click _add_.
-To edit an added task, select the task in the list shown. Write the updated task in the entry box and press _edit_.
-To remove a completed task, select the task in the list shown and press _complete_.
-Press _exit_ or the close window button to exit the app.
+- To add a task, type the task in the entry box and click _add_.
+- To edit an added task, select the task in the list shown. Write the updated task in the entry box and press _edit_.
+- To remove a completed task, select the task in the list shown and press _complete_.
+- Press _exit_ or the close window button to exit the app.
